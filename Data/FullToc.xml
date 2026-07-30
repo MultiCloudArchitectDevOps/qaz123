@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="59">
+    <TocEntry Title="Welcome to Simplify Docs™" Link="/Content/Get Started!-1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+    <TocEntry Title="Production Hub" Link="/Content/Production Hub - Collaborate - Collaborate1.htm#top" ComputedFirstTopic="false" DescendantCount="46">
+        <TocEntry Title="Collaborate" Link="/Content/Production Hub - Collaborate - Collaborate1.htm#Collabor" ComputedFirstTopic="false" DescendantCount="34">
+            <TocEntry Title="Access the Collaborate" Link="/Content/Production Hub - Collaborate - Collaborate1.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Collaborate" Link="/Content/Production Hub - Collaborate - Collaborate1.htm#Collabor3" ComputedFirstTopic="false" DescendantCount="12">
+                <TocEntry Title="Collaborate Dashboard" Link="/Content/Production Hub - Collaborate - Collaborate1.htm#Collabor2" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Upload External Document" Link="/Content/Production Hub - Collaborate - Collaborate1.htm#Upload" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Edit Workflow Process" Link="/Content/Production Hub - Collaborate - Collaborate2.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Bulk Edit Workflow Process" Link="/Content/Production Hub - Collaborate - Collaborate2.htm#Bulk" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Download Workflow Process" Link="/Content/Production Hub - Collaborate - Collaborate3.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Terminate Workflow Process" Link="/Content/Production Hub - Collaborate - Collaborate3.htm#Terminat" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Select Column" Link="/Content/Production Hub - Collaborate - Collaborate3.htm#Select" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Review Process Workflow" Link="/Content/Production Hub - Collaborate - Collaborate3.htm#Review" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Previous Versions" Link="/Content/Production Hub - Collaborate - Collaborate5.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Update Status" Link="/Content/Production Hub - Collaborate - Collaborate5.htm#Update" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Email Status" Link="/Content/Production Hub - Collaborate - Collaborate5.htm#Email" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Reviewers Dashboard" Link="/Content/Production Hub - Collaborate - Collaborate5.htm#Reviewer" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Dashboard" Link="/Content/Production Hub - Collaborate - Dashboard1.htm#top" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Access the Dashboard" Link="/Content/Production Hub - Collaborate - Dashboard1.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="View/Download Data for/from Effective Year/Collateral Type" Link="/Content/Production Hub - Collaborate - Dashboard1.htm#View/Dow" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="CheckList" Link="/Content/Production Hub - Collaborate - CheckList1.htm#top" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Access the CheckList" Link="/Content/Production Hub - Collaborate - CheckList1.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add Checklist" Link="/Content/Production Hub - Collaborate - CheckList1.htm#Add" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Preview Checklist" Link="/Content/Production Hub - Collaborate - CheckList1.htm#Preview" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Edit Checklist" Link="/Content/Production Hub - Collaborate - CheckList1.htm#Edit" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Delete Checklist" Link="/Content/Production Hub - Collaborate - CheckList1.htm#Delete" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Logs" Link="/Content/Production Hub - Collaborate - Logs1.htm#top" ComputedFirstTopic="false" DescendantCount="1">
+                <TocEntry Title="Access the Logs" Link="/Content/Production Hub - Collaborate - Logs1.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="User Management" Link="/Content/Production Hub - Collaborate - User Management1.htm#top" ComputedFirstTopic="false" DescendantCount="8">
+                <TocEntry Title="Access the User Management" Link="/Content/Production Hub - Collaborate - User Management1.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add User" Link="/Content/Production Hub - Collaborate - User Management1.htm#Add" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Edit User" Link="/Content/Production Hub - Collaborate - User Management1.htm#Edit" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Delete User" Link="/Content/Production Hub - Collaborate - User Management1.htm#Delete" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Manage User Groups" Link="/Content/Production Hub - Collaborate - User Management1.htm#Manage" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Access the Manage User Groups" Link="/Content/Production Hub - Collaborate - User Management1.htm#Access2" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add User Group" Link="/Content/Production Hub - Collaborate - User Management1.htm#Add2" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Delete User Group" Link="/Content/Production Hub - Collaborate - User Management1.htm#Delete2" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Generate" Link="/Content/Production Hub - Generate1.htm#top" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="Generate Documents" Link="/Content/Production Hub - Generate1.htm#Generate2" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Access the Generate Documents" Link="/Content/Production Hub - Generate1.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Generate and Publish the Document(s)" Link="/Content/Production Hub - Generate1.htm#Generate" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add New Template" Link="/Content/Production Hub - Generate2.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Queued Documents" Link="/Content/Production Hub - Generate2.htm#Queued" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Access the Queued Documents" Link="/Content/Production Hub - Generate2.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Download the Generated/Published Document" Link="/Content/Production Hub - Generate2.htm#Download" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Requeue" Link="/Content/Production Hub - Generate2.htm#Requeue" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Terminate" Link="/Content/Production Hub - Generate2.htm#Terminat" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Bulk Download" Link="/Content/Production Hub - Generate2.htm#Bulk" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Authoring Hub" ComputedFirstTopic="false" DescendantCount="10">
+        <TocEntry Title="Digital Content Manager" Link="/Content/Authoring Hub3.htm#top" ComputedFirstTopic="false" DescendantCount="9">
+            <TocEntry Title="Access the Digital Content Manager" Link="/Content/Authoring Hub3.htm#Access" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create Rule" Link="/Content/Authoring Hub3.htm#Create" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Edit Rule" Link="/Content/Authoring Hub4.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Copy Rule" Link="/Content/Authoring Hub4.htm#Copy" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Release Rule" Link="/Content/Authoring Hub4.htm#Release" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Delete Rules" Link="/Content/Authoring Hub4.htm#Delete" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Select Column" Link="/Content/Authoring Hub5.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Plan Preview Selection" Link="/Content/Authoring Hub6.htm#Plan" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Download Excel " Link="/Content/Authoring Hub6.htm#Download" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="test" Link="/Content/www.htm#top" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

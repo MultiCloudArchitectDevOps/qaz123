@@ -1,0 +1,1879 @@
+/*<meta conditions="Default.ScreenOnly" />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support.
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom.
+
+===========================================================================================================================================================*/
+
+/* Home Page General Styles*/
+
+.dropDownHotspot:focus-visible
+{
+	outline: none;
+}
+
+body
+{
+	font-family: "Roboto", sans-serif;
+	font-size: 1em;
+}
+
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+span,
+button,
+a,
+li
+{
+	font-family: "Roboto", sans-serif;
+}
+
+div#mc-main-content
+{
+	padding: 20px 50px;
+	min-height: calc(100vh);
+}
+
+div#mc-main-content ol li:before
+{
+	content: '';
+	width: 6px;
+	display: inline-block;
+}
+
+p.BodyText
+{
+	margin-left: 14pt;
+	orphans: 2;
+	widows: 2;
+}
+
+span
+{
+	width: auto;
+	/*	margin-right: 16px;*/
+	mc-hidden: unhidden;
+}
+
+ul
+{
+	margin-left: 5pt;
+	mc-hyphenate: never;
+	mc-hidden: hidden;
+}
+
+p
+{
+	mc-hyphenate: never;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.4;
+}
+
+li
+{
+	mc-hyphenate: never;
+	font-size: 1em;
+}
+
+div._Skins_Side_navigation_doc_toolbar
+{
+	mc-hidden: hidden;
+}
+
+div.body-container
+{
+	mc-hidden: hidden;
+	padding: 0px;
+}
+
+div.buttons
+{
+	mc-hidden: hidden;
+}
+
+div.main-section
+{
+	mc-hidden: hidden;
+}
+
+div.mc-component
+{
+	mc-hidden: hidden;
+}
+
+div.nocontent
+{
+	mc-hidden: hidden;
+}
+
+div.off-canvas-content
+{
+	mc-hidden: hidden;
+}
+
+div.outer-row
+{
+	mc-hidden: hidden;
+}
+
+div.popup-container
+{
+	mc-hidden: hidden;
+}
+
+div.sidenav-container
+{
+	mc-hidden: hidden;
+}
+
+div.topicToolbarProxy
+{
+	mc-hidden: hidden;
+}
+
+div.col-11
+{
+	mc-hidden: hidden;
+}
+
+b
+{
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+}
+
+div.clearfix
+{
+	mc-hidden: hidden;
+}
+
+div.image-box
+{
+	mc-hidden: hidden;
+}
+
+div.info-section
+{
+	mc-hidden: hidden;
+}
+
+div.link-icon
+{
+	mc-hidden: hidden;
+}
+
+div.shu-intro
+{
+	mc-hidden: hidden;
+}
+
+div
+{
+	mc-hidden: hidden;
+}
+
+div.home-master-page-footer img
+{
+	mc-hidden: hidden;
+	margin-right: 10px !important;
+}
+
+img
+{
+	vertical-align: middle;
+	text-align: center;
+	height: auto;
+	margin: 5px auto;
+	padding: 0;
+	border: none !important;
+	width: 100%;
+}
+
+/* Containers & Components */
+
+html.home-page div.body-container
+{
+	padding: 0px !important;
+}
+
+div.container
+{
+	display: block;
+	margin: 0 auto;
+	padding: 2%;
+	width: 94%;
+}
+
+div.contentBody
+{
+	padding: 30px;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+	mc-hidden: hidden;
+}
+
+html.home-page
+{
+	mc-community-features: disabled;
+	mc-hidden: hidden;
+}
+
+html.home-page .sidenav-wrapper
+{
+	display: none;
+	mc-hidden: hidden;
+}
+
+ul.sidenav li.is-accordion-submenu-parent > a span.submenu-toggle
+{
+	border-top-color: #ffffff;
+}
+
+/* Columns */
+
+div.col-1,
+div.col-2,
+div.col-3,
+div.col-4,
+div.col-5,
+div.col-6,
+div.col-7,
+div.col-8,
+div.col-11,
+div.col-12
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	clear: none;
+	box-sizing: border-box;
+}
+
+div.col-1
+{
+	width: 15%;
+	mc-hidden: hidden;
+}
+
+div.col-2
+{
+	width: 28%;
+	mc-hidden: hidden;
+}
+
+div.col-3
+{
+	width: 25%;
+	mc-hidden: hidden;
+}
+
+div.col-4
+{
+	width: 30%;
+	mc-hidden: hidden;
+}
+
+div.col-5
+{
+	width: 36%;
+	mc-hidden: hidden;
+}
+
+div.col-6
+{
+	width: 50%;
+	mc-hidden: hidden;
+}
+
+div.col-7
+{
+	width: 70%;
+	mc-hidden: hidden;
+}
+
+div.col-8
+{
+	width: 85%;
+	mc-hidden: hidden;
+}
+
+div.col-12
+{
+	width: 100%;
+	mc-hidden: hidden;
+}
+
+/* Heading Tags & Sizes */
+
+h1
+{
+	font-weight: bold;
+	color: #0A3F5A;
+	margin: 0;
+	font-size: 2.2em;
+	padding-bottom: 10px;
+}
+
+h2
+{
+	font-weight: bold;
+	color: #0A3F5A;
+	font-size: 1.5em;
+}
+
+h3
+{
+	font-weight: bold;
+	color: #0A3F5A;
+	font-size: 1.25em;
+}
+
+h4
+{
+	font-weight: bold;
+	color: #0A3F5A;
+	font-size: 1.125em;
+}
+
+h5
+{
+	font-weight: bold;
+	color: #0A3F5A;
+	font-size: 1em;
+}
+
+p.container-heading
+{
+	margin-top: 8px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #4B4B4B;
+}
+
+/* Main Section */
+
+img.product-logo,
+img.course-thmb,
+img.whats-new
+{
+	border: 0;
+}
+
+img.product-logo	/* Product logo */
+{
+	padding: 4% 0 0 0;
+	width: 16vmax;
+	vertical-align: middle;
+}
+
+div.product-intro
+{
+	display: block;
+	margin: auto;
+}
+
+div.shu-intro,
+div.shu-outro
+{
+	float: left;
+	display: block;
+	margin: 20px 0;
+}
+
+div.shu-outro
+{
+	border-top: 1px solid #ededed;
+	width: 100%;
+}
+
+span.link-icon img,
+span.link-section img.section-img,
+img.invisible-label,
+div.home-master-page-footer img
+{
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+div.home-master-page-footer a img
+{
+	width: 1.5vmax;
+}
+
+span.link-icon img
+{
+	height: 15px;
+	width: 15px;
+	mc-hidden: hidden;
+}
+
+/* Madcap Components */
+
+p.ImageText
+{
+	font-family: "Roboto";
+	font-style: italic;
+	font-size: 8pt;
+	text-align: center;
+}
+
+p.Bulletno
+{
+	list-style-type: decimal;
+	font-family: "Roboto", sans-serif;
+}
+
+div._Skins_Side_navigation_doc_toolbar.mc-component .button.collapse-all-button
+{
+	display: none;
+	mc-hidden: hidden;
+}
+
+.sidenav-container
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+	mc-hidden: hidden;
+}
+
+/*==Mad Cap proxy/editor assigned styles==*/
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: none;
+	width: 50%;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+.dropDownHotspot:link
+{
+	font-size: 12pt;
+}
+
+.dropDownBody
+{
+	padding: 10px 0 !important;
+	margin-left: 10px;
+}
+
+/*==Top Navigation Bar Section==*/
+
+nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+	padding: 3px 0;
+}
+
+/*==Home Page Hero Section==*/
+
+div.topic-hero	/* Div section which contains the Product logo, Introduction text and What's new */
+{
+	padding-bottom: 30px;
+	padding-top: 12px;
+	background-color: transparent;
+	background: white;
+	background-size: cover;
+	background-position: center;
+}
+
+/*==Home Tiles section==*/
+
+span.link-icon
+{
+	margin-right: 10px;
+	mc-hidden: hidden;
+}
+
+span.link-text
+{
+	float: none;
+	mc-hidden: hidden;
+}
+
+span.link-text a
+{
+	color: #282828;
+	font-weight: 500;
+	mc-hidden: hidden;
+}
+
+div.info-section-main
+{
+	background: rgba(16, 82, 153, 0.05);
+}
+
+div.info-section-main div.container
+{
+	background: white;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 17px rgba(0, 0, 0, 0.1);
+}
+
+div.home-tiles-container
+{
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 48%;
+	margin-left: 1%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 48%;
+	margin-left: 1%;
+}
+
+button
+{
+	margin: 10px;
+	padding: 7px 16px;
+	background: #0174B2;
+	border: 1px solid #0174B2;
+	border-radius: 17px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	mc-hidden: hidden;
+}
+
+button:hover
+{
+	opacity: 0.5;
+}
+
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	text-align: center;
+	margin: 0;
+}
+
+p.course-title
+{
+	font-size: 13px;
+	font-weight: 600;
+	mc-hidden: hidden;
+}
+
+p.course-desc
+{
+	font-size: 13px;
+	font-weight: 400;
+	mc-hidden: hidden;
+}
+
+div.info-section-main,
+div.card-section
+{
+	padding: 25px 0;
+	display: block;
+	width: 100%;
+}
+
+div.card-section
+{
+	height: 550px;
+}
+
+div.card-tile
+{
+	display: block;
+	padding: 7px 10px;
+	text-decoration: none;
+	color: black;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 0 10px -5px #000000ae;
+	border-radius: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
+	overflow: hidden;
+	font-weight: 700;
+}
+
+p.tile-title
+{
+	font-size: 20px;
+	text-align: left;
+	mc-hidden: hidden;
+}
+
+p.tile-desc
+{
+	margin: 27px 0;
+	font-size: 16px;
+	font-weight: 400;
+	mc-hidden: hidden;
+}
+
+p.tile-link a
+{
+	margin: 0;
+	font-size: 13px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #000;
+	mc-hidden: hidden;
+}
+
+a.home-button:hover
+{
+	color: #FFF;
+	background-color: #1ab1a7;
+	mc-hidden: hidden;
+}
+
+/*==Info section==*/
+
+div.info-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-bottom: 75px;
+	mc-hidden: hidden;
+}
+
+div.info-section,
+div.link-section	/* This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout. */
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-section::before,
+div.link-section::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.info-section::after,
+div.link-section::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.info-section > div,
+div.link-section > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.info-section > div:nth-child(1)
+{
+	width: 32.2%;
+	margin-left: 1%;
+}
+
+div.info-section > div:nth-child(2)
+{
+	width: 32.2%;
+	margin-left: 1%;
+}
+
+div.info-section > div:nth-child(3)
+{
+	width: 32.2%;
+	margin-left: 1%;
+}
+
+div.link-section
+{
+	float: left;
+	display: block;
+	padding: 30px 20px 25px;
+	width: 100%;
+	margin: 20px 0;
+	background: #fff;
+	box-shadow: 0px 0px 28px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 12px;
+}
+
+div.course-section
+{
+	float: left;
+	display: block;
+	padding: 0;
+	width: 100%;
+	margin: 20px 0;
+	background: #fff;
+	border-radius: 7px;
+}
+
+div.link-section-2 div.image-box
+{
+	margin-top: 33px;
+}
+
+div.section-box
+{
+	width: 85%;
+	margin-right: 15%;
+}
+
+img.section-img
+{
+	width: 110%;
+}
+
+div.link-section img.section-img
+{
+	width: 42%;
+	margin: 18px 0 0 0px;
+	mc-hidden: hidden;
+}
+
+div.link-section-2 img.section-img
+{
+	width: 43%;
+	margin: -2px 0px 0 0px;
+	mc-hidden: hidden;
+}
+
+div.nav-search
+{
+	width: 100$;
+}
+
+form.search,
+div.search-bar
+{
+	float: right;
+}
+
+div.search-bar input.search-field
+{
+	border: 1px solid #898989;
+	mc-hidden: hidden;
+}
+
+div.search-bar
+{
+	width: 215px;
+}
+
+div#header-links
+{
+	font-family: "Roboto";
+	text-align: center;
+	float: inline-end;
+	margin-right: 10px;
+}
+
+div#header-links a img
+{
+	width: 24px;
+}
+
+div#header-links a
+{
+	color: #0d529a;
+	text-align: center;
+	mc-hidden: hidden;
+	font-weight: normal;
+}
+
+div.link-section-2
+{
+	margin-top: 60px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+/*=Elements for content contained within each info section=*/
+
+p.info-title
+{
+	line-height: 18px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #9c9c9c;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	mc-hidden: unhidden;
+}
+
+p.info-content
+{
+	font-size: 14px;
+	mc-hidden: hidden;
+}
+
+/*==Home Page Footer==*/
+
+div.footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f7f7f7;
+	bottom: 0;
+	width: 100%;
+	mc-hidden: hidden;
+	position: static;
+}
+
+div.footer a
+{
+	text-decoration: none;
+	color: #DADADA;
+	mc-hidden: hidden;
+}
+
+div.footer p	/* Complex Selector: Any <p> that is contained within div.footer will have the following properties */
+{
+	font-size: .9em !important;
+	color: #333333 !important;
+	mc-hidden: hidden;
+	font-family: "Roboto", sans-serif;
+}
+
+div.footer hr
+{
+	width: 95%;
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right,#232B61,#14B2A7,#F8D263);
+}
+
+div.footer img
+{
+	width: 12%;
+}
+
+div.home-master-page-footer	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	width: 97% !important;
+	mc-hidden: hidden;
+	float: right;
+	padding-right: 2%;
+}
+
+div.home-master-page-footer p a
+{
+	font-size: .9em !important;
+	color: #333333 !important;
+	font-weight: 500;
+	mc-hidden: hidden;
+	font-family: "Roboto", sans-serif;
+}
+
+div.home-master-page-footer::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-master-page-footer::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-master-page-footer img
+{
+	width: 80%;
+}
+
+div.home-master-page-footer > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-master-page-footer > div:nth-child(1)
+{
+	width: 60% !important;
+	margin-left: 0%;
+	text-align: left;
+}
+
+div.home-master-page-footer > div:nth-child(2)
+{
+	width: 30% !important;
+	margin-left: 0%;
+	text-align: right;
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 10% !important;
+	margin-left: 0%;
+}
+
+/*Madcap Footer Copyright*/
+
+span.mc-variable.Variables\00000Copyright
+{
+	display: none;
+}
+
+/* Blockquotes */
+
+blockquote.Paragraph_Notes
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	overflow: hidden;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-left: 60px;
+	padding-right: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	mc-hyphenate: never;
+	background-color: #fbfbfb;
+	border-bottom-color: #F8D263;
+	border-left-color: #F8D263;
+	border-right-color: #F8D263;
+	border-top-color: #F8D263;
+	background-position: 9px 22px;
+	line-height: 18px;
+	background-size: 36px;
+	background-image: url('../Images/icon-note.png');
+}
+
+blockquote.Paragraph_Important
+{
+	font-family: "Roboto", sans-serif;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	background-color: #fbfbfb;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	padding-left: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	right: 50px;
+	mc-hyphenate: never;
+	border-left-width: 2px;
+	border-bottom-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 2px;
+	border-bottom-color: #43812C;
+	border-left-color: #43812C;
+	border-right-color: #43812C;
+	border-top-color: #43812C;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-right: 80px;
+	background-position: 9px 22px;
+	background-size: 36px;
+	background-image: url('../Images/icon-important.png');
+}
+
+address
+{
+	display: inline;
+	mc-hidden: hidden;
+}
+
+.button
+{
+	mc-hidden: hidden;
+}
+
+.collapse-all-button
+{
+	mc-hidden: hidden;
+}
+
+.main-section
+{
+	mc-hidden: hidden;
+}
+
+.off-canvas-content
+{
+	mc-hidden: hidden;
+}
+
+.outer-row
+{
+	mc-hidden: hidden;
+}
+
+span.link-section img.section-img
+{
+	mc-hidden: hidden;
+}
+
+a.home-button
+{
+	mc-hidden: hidden;
+}
+
+a
+{
+	mc-hidden: hidden;
+	font-weight: normal;
+}
+
+i
+{
+	mc-hidden: hidden;
+}
+
+p.tile-link
+{
+	mc-hidden: hidden;
+}
+
+.sidenav-wrapper
+{
+	mc-hidden: hidden;
+	background-color: #2F5481;
+}
+
+ul.sidenav li a.selected
+{
+	color: #ffffff;
+	font-weight: 400;
+}
+
+ul.sidenav li a:hover,
+ul.sidenav ul > li > a:hover,
+ul.sidenav ul ul > li > a:hover
+{
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #1a385c;
+}
+
+img.whats-new
+{
+	mc-hidden: hidden;
+}
+
+img.invisible-label
+{
+	mc-hidden: hidden;
+}
+
+img.course-thmb
+{
+	mc-hidden: hidden;
+}
+
+nav
+{
+	mc-hidden: hidden;
+}
+
+span.link-section
+{
+	mc-hidden: hidden;
+}
+
+tt
+{
+	mc-hidden: hidden;
+}
+
+span.boolean
+{
+	mc-hidden: hidden;
+}
+
+span.state
+{
+	mc-hidden: hidden;
+}
+
+strong
+{
+	mc-hidden: hidden;
+}
+
+style
+{
+	mc-hidden: hidden;
+}
+
+tr
+{
+	mc-hidden: hidden;
+}
+
+var
+{
+	mc-hidden: hidden;
+}
+
+ins
+{
+	mc-hidden: hidden;
+}
+
+em
+{
+	mc-hidden: hidden;
+}
+
+del
+{
+	mc-hidden: hidden;
+}
+
+abbr
+{
+	mc-hidden: hidden;
+}
+
+acronym
+{
+	mc-hidden: hidden;
+}
+
+kbd
+{
+	mc-hidden: hidden;
+}
+
+label
+{
+	mc-hidden: hidden;
+}
+
+q
+{
+	mc-hidden: hidden;
+}
+
+samp
+{
+	mc-hidden: hidden;
+}
+
+small
+{
+	mc-hidden: hidden;
+}
+
+h6
+{
+	color: #0A3F5A;
+	font-size: 14px;
+}
+
+code
+{
+	font-family: "Roboto", sans-serif;
+}
+
+MadCap|codeSnippetBody
+{
+	line-height: normal;
+}
+
+MadCap|codeSnippet
+{
+	font-size: 14px;
+	line-height: normal;
+	padding-top: 10px;
+}
+
+li::marker
+{
+	margin-right: 5px;
+}
+
+.buttons._Skins_Side_navigation_doc_toolbar.mc-component
+{
+	display: none;
+}
+
+.search-bar.search-bar-container .search-submit
+{
+	width: 36px;
+	right: 2px;
+	position: relative;
+	margin-top: 5px;
+}
+
+.home-master-page-footer div div
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+ul.sidenav ul > li > a.selected
+{
+	Color: #ffffff;
+}
+
+ul.sidenav li a,
+ul.sidenav ul > li > a
+{
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+}
+
+ul.sidenav li a
+{
+	color: #ffffff;
+	border-bottom: 0px;
+}
+
+MadCap|dropDownHotspot
+{
+	font-size: 12pt;
+}
+
+MadCap|dropDownBody
+{
+	padding: 0px;
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid var(--Light);
+	/*mc-image-position: right;
+	mc-image-spacing: 5px;
+	mc-closed-image: url('../Images/Plus.png');
+	padding: 10px 0;
+	mc-open-image: url('../Images/minus.png');
+	display: block;*/
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: right;
+	background-image: url('../Images/Plus.png');
+	background-size: 11pt;
+	padding-left: 10px;
+	display: block;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: right;
+	background-image: url('../Images/minus.png');
+	background-size: 11pt;
+	padding-left: 10px;
+	display: block;
+}
+
+footer
+{
+	position: static;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1279px)
+{
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	p.info-title
+	{
+		font-size: 32px;
+	}
+
+	p.info-content
+	{
+		font-size: 16px;
+		mc-hidden: hidden;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: static;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 60% !important;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 30% !important;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 10% !important;
+		margin-left: 0%;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-size: .85em;
+	}
+
+	MadCap|dropDownBody
+	{
+		font-size: 10pt;
+	}
+
+	ul
+	{
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.home-tiles > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	p.tile-title
+	{
+		font-size: 16px;
+	}
+
+	div.info-container
+	{
+		padding-bottom: 0;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+	}
+
+	p.info-title
+	{
+		font-size: 32px;
+	}
+
+	p.info-content
+	{
+		font-size: 16px;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 100%;
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 100%;
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 100%;
+	}
+}
+
+span.email-address
+{
+	font-style: italic;
+	display: inline;
+	margin-right: 0px;
+	float: none;
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+}
+
+span.filepath
+{
+	font-family: sans-serif;
+	font-style: italic;
+	display: inline;
+	text-align: left;
+	margin-right: 0px;
+	float: none;
+	font-size: 14px;
+}
+
+p.image-card
+{
+	width: 25%;
+	display: inline-block;
+}
+
+span.user-input
+{
+	font-style: italic;
+	display: inline;
+	float: none;
+	font-family: 'Courier New';
+	font-size: 14px;
+}
+
+ul.UL
+{
+	list-style-type: disc;
+}
+
+ul.UL > li > ul
+{
+	list-style-type: disc;
+	list-style-image: none;
+}
+
+ul.UL > li > ul > li::marker
+{
+	font-family: 'Roboto';
+	content: '°';
+}
+
+ul.UL > li > ul > li > ul
+{
+	list-style-image: none;
+}
+
+ul.UL > li > ul > li > ul > li::marker
+{
+	font-family: 'Roboto';
+	content: '¶';
+}
+
+span.system-output
+{
+	float: none;
+	margin-right: 0px;
+	display: inline;
+	font-style: italic;
+	font-family: 'Courier New';
+	font-size: 14px;
+}
+
+blockquote.Paragraph_Example
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-left: 60px;
+	padding-right: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	mc-hyphenate: never;
+	background-color: #fbfbfb;
+	border-bottom-color: #005A8F;
+	border-left-color: #005A8F;
+	border-right-color: #005A8F;
+	border-top-color: #005A8F;
+	background-position: 9px 22px;
+	background-size: 34px;
+	background-image: url('../Images/icon-example.png');
+}
+
+blockquote.Paragraph_Warning
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-left: 60px;
+	padding-right: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	mc-hyphenate: never;
+	background-color: #fbfbfb;
+	border-bottom-color: #EB7100;
+	border-left-color: #EB7100;
+	border-right-color: #EB7100;
+	border-top-color: #EB7100;
+	background-position: 9px 22px;
+	background-size: 36px;
+	background-image: url('../Images/icon-warning.png');
+}
+
+blockquote.Paragraph_Tips
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	line-height: 18px;
+	overflow: hidden;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-left: 60px;
+	padding-right: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	mc-hyphenate: never;
+	background-color: #fbfbfb;
+	border-top-color: #FF5D5D;
+	border-right-color: #FF5D5D;
+	border-left-color: #FF5D5D;
+	border-bottom-color: #FF5D5D;
+	background-position: 9px 22px;
+	background-size: 36px;
+	background-image: url('../Images/icon-tips.png');
+}
+
+ul > li > ul
+{
+	margin-left: 1px;
+}
+
+ol > li > ol
+{
+	margin-left: 10px;
+}
+
+@media print
+{
+	span
+	{
+		
+	}
+}
+
+@media only screen and (max-width: 1279px)
+{
+	nav.title-bar .menu-icon
+	{
+		border: none;
+		z-index: 100;
+		position: absolute;
+		background: #11539a;
+		cursor: pointer;
+		/*	top: 32%;*/
+		transform: translateY(-50%);
+		display: block;
+		left: 0px;
+		right: auto;
+		float: right;
+	}
+
+	.off-canvas
+	{
+		background-color: #2F5481;
+	}
+
+	nav.title-bar .menu-icon span
+	{
+		margin-right: 2px;
+	}
+
+	.menu-icon
+	{
+		align: right;
+	}
+
+	div.footer
+	{
+		background-color: #f9f9f9;
+		position: sttic;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.off-canvas
+	{
+		background-color: #2F5481;
+	}
+
+	nav.title-bar .menu-icon
+	{
+		display: block;
+		left: 163px;
+		right: auto;
+		float: right;
+	}
+
+	.title-bar-layout a.logo
+	{
+		margin-left: 70px;
+	}
+}
+
+li > p
+{
+	margin-left: 0;
+	padding-left: 0px;
+}
+
+div#mc-main-content ol li.p-list:before
+{
+	content: unset;
+}
+
+ol + p.ImageText,
+ul + p.ImageText
+{
+	margin-left: 20px;
+}
+
+li > p.BodyText
+{
+	margin-left: 0;
+}
+

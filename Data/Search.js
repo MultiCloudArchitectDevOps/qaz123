@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Authoring Hub3.htm'],s:['+'],p:[['+',6],['contract',3],['indicating',1],['s',6],['total',7]]});
